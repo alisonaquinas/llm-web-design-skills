@@ -1,0 +1,8 @@
+{
+  "name": "llm-web-design-skills",
+  "version": "0.1.0",
+  "description": "Cross-compatible LLM skills for modern web design, frontend frameworks, backend frameworks, static sites, UI systems, and web build tooling.",
+  "author": {
+    "name": "Alison Aquinas"
+  }
+}

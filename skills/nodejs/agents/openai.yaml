@@ -1,0 +1,4 @@
+interface:
+  display_name: "NodeJS"
+  short_description: "Guide Node.js runtime design"
+  default_prompt: "Use $nodejs to guide NodeJS architecture, implementation, review, and troubleshooting work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SCSS"
+  short_description: "Guide maintainable SCSS systems"
+  default_prompt: "Use $scss to guide SCSS architecture, implementation, review, and troubleshooting work."

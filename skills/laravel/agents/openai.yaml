@@ -1,0 +1,4 @@
+interface:
+  display_name: "Laravel"
+  short_description: "Guide Laravel app architecture"
+  default_prompt: "Use $laravel to guide Laravel architecture, implementation, review, and troubleshooting work."

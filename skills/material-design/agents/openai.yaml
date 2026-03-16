@@ -1,0 +1,4 @@
+interface:
+  display_name: "Material Design"
+  short_description: "Guide Material Design systems"
+  default_prompt: "Use $material-design to guide Material Design architecture, implementation, review, and troubleshooting work."

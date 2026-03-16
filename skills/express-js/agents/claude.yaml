@@ -1,0 +1,4 @@
+interface:
+  display_name: "Express.js"
+  short_description: "Guide Express.js API design"
+  default_prompt: "Use $express-js to guide Express.js architecture, implementation, review, and troubleshooting work."

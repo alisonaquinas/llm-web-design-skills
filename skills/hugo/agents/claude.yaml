@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo"
+  short_description: "Guide Hugo site architecture"
+  default_prompt: "Use $hugo to guide Hugo architecture, implementation, review, and troubleshooting work."

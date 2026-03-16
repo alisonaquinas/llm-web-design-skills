@@ -1,0 +1,4 @@
+interface:
+  display_name: "Svelte"
+  short_description: "Guide Svelte app architecture"
+  default_prompt: "Use $svelte to guide Svelte architecture, implementation, review, and troubleshooting work."

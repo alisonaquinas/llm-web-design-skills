@@ -1,0 +1,4 @@
+interface:
+  display_name: "Django"
+  short_description: "Guide Django app architecture"
+  default_prompt: "Use $django to guide Django architecture, implementation, review, and troubleshooting work."

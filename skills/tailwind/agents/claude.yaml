@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailwind"
+  short_description: "Guide maintainable Tailwind usage"
+  default_prompt: "Use $tailwind to guide Tailwind architecture, implementation, review, and troubleshooting work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ASP.NET"
+  short_description: "Guide ASP.NET Core design"
+  default_prompt: "Use $asp-net to guide ASP.NET architecture, implementation, review, and troubleshooting work."

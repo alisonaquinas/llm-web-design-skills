@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spring Boot"
+  short_description: "Guide Spring Boot architecture"
+  default_prompt: "Use $spring-boot to guide Spring Boot architecture, implementation, review, and troubleshooting work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "React"
+  short_description: "Guide React component design"
+  default_prompt: "Use $react to guide React architecture, implementation, review, and troubleshooting work."

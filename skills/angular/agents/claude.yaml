@@ -1,0 +1,4 @@
+interface:
+  display_name: "Angular"
+  short_description: "Guide Angular app architecture"
+  default_prompt: "Use $angular to guide Angular architecture, implementation, review, and troubleshooting work."

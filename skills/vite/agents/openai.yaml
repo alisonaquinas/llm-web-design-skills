@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vite"
+  short_description: "Guide Vite project setup"
+  default_prompt: "Use $vite to guide Vite architecture, implementation, review, and troubleshooting work."

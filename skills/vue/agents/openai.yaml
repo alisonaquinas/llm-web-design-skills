@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vue"
+  short_description: "Guide Vue app architecture"
+  default_prompt: "Use $vue to guide Vue architecture, implementation, review, and troubleshooting work."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "NextJS"
+  short_description: "Guide Next.js app architecture"
+  default_prompt: "Use $nextjs to guide NextJS architecture, implementation, review, and troubleshooting work."
