@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import annotations
+
 import argparse
 import re
 import subprocess
 import sys
+
 VERSION_RE = re.compile(r'^v?(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)')
 def parse_version(raw: str):
     m = VERSION_RE.match(raw.strip())
