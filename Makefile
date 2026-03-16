@@ -1,7 +1,8 @@
-.PHONY: all build clean help list verify lint test test-unit
+.PHONY: all build bundle clean help list verify lint test test-unit
 .DEFAULT_GOAL := help
 .SECONDEXPANSION:
 PYTHON ?= python3
+PLUGIN_NAME := web-design-skills
 SKILLS_ROOT := skills
 SKILLS := $(sort $(patsubst $(SKILLS_ROOT)/%/SKILL.md,%,$(wildcard $(SKILLS_ROOT)/*/SKILL.md)))
 BUILD_DIR := built
@@ -36,3 +37,7 @@ test: lint test-unit
 list:
 	@ls -lh $(BUILD_DIR)/*.zip 2>/dev/null || echo "No ZIPs built yet."
 all: clean build
+bundle: build
+	@echo "Building $(PLUGIN_NAME)-plugin.zip..."
+	@cd $(BUILD_DIR) && zip -q $(PLUGIN_NAME)-plugin.zip *-skill.zip
+	@echo "  ✓ $(BUILD_DIR)/$(PLUGIN_NAME)-plugin.zip created"
