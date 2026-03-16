@@ -20,7 +20,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -36,7 +36,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -52,7 +52,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -68,7 +68,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -84,7 +84,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -100,7 +100,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -116,7 +116,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -132,7 +132,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -148,7 +148,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -164,7 +164,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -180,7 +180,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -196,7 +196,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -212,7 +212,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -228,7 +228,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -244,7 +244,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |
@@ -260,7 +260,7 @@ This third pass focused on the three round-2 partials and then re-ran the full m
 - Outcome mix: 9 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 8 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 4 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 4 | examples are realistic and framework-specific |

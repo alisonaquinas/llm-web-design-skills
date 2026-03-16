@@ -20,7 +20,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -35,7 +35,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -50,7 +50,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -65,7 +65,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -80,7 +80,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -95,7 +95,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -110,7 +110,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 7 pass / 1 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PARTIAL | 8 | examples exist but could be more realistic or more framework-specific |
@@ -125,7 +125,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -140,7 +140,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -155,7 +155,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -170,7 +170,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -185,7 +185,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -200,7 +200,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |
@@ -215,7 +215,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 7 pass / 1 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PARTIAL | 8 | examples exist but could be more realistic or more framework-specific |
@@ -230,7 +230,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 7 pass / 1 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PARTIAL | 8 | examples exist but could be more realistic or more framework-specific |
@@ -245,7 +245,7 @@ This second pass used the uploaded `skill-test-drive` guidance with a stricter e
 - Outcome mix: 8 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 12 | disposable copy preserved the skill entrypoint, both manifests, and all referenced markdown files |
 | S02 | setup | PASS | 12 | Quick Start establishes the framework posture before detailed advice |
 | S03 | example-quality | PASS | 12 | request examples cover review and change scenarios with framework-native vocabulary |

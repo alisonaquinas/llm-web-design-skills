@@ -14,7 +14,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -27,7 +27,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -40,7 +40,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -53,7 +53,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -66,7 +66,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -79,7 +79,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -92,7 +92,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -105,7 +105,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -118,7 +118,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -131,7 +131,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -144,7 +144,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -157,7 +157,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -170,7 +170,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -183,7 +183,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -196,7 +196,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |
@@ -209,7 +209,7 @@ This report follows the uploaded `skill-test-drive` workflow. Each skill was exe
 - Outcome mix: 6 pass / 0 partial / 0 fail
 
 | ID | Bucket | Outcome | Score | Key evidence |
-|---|---|---|---:|---|
+| --- | --- | --- | ---: | --- |
 | S01 | happy-path | PASS | 4 | intent-router references and manifests resolved in disposable copy |
 | S02 | variant | PASS | 4 | workflow includes framework-specific command path |
 | S03 | verification | PASS | 2 | verification guidance found |

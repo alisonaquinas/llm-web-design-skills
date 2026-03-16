@@ -1,6 +1,7 @@
 import unittest
 import zipfile
 from pathlib import Path
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 REPO_NAME = REPO_ROOT.name
 SKILLS_ROOT = REPO_ROOT / 'skills'
@@ -18,7 +19,8 @@ class TestBuiltZips(unittest.TestCase):
         build_dir = REPO_ROOT / 'built'
         self.zips = sorted(build_dir.glob('*-skill.zip')) if build_dir.exists() else []
     def test_required_files_in_zips(self):
-        if not self.zips: self.skipTest('built/ directory is empty — run make build first')
+        if not self.zips:
+            self.skipTest('built/ directory is empty — run make build first')
         for z in self.zips:
             skill_name = z.stem.replace('-skill', '')
             with zipfile.ZipFile(z, 'r') as zf:
