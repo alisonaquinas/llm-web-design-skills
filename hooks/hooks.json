@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "You are in llm-web-design-skills. Enforce web-design AGENTS guidance and recommend full lint/build/verify when making behavior-affecting changes."
+          }
+        ]
+      }
+    ]
+  }
+}

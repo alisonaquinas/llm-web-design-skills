@@ -60,3 +60,29 @@ The release workflow (`.github/workflows/release.yml`) will then:
 - Run `make all` to build ZIP artifacts
 - Create a GitHub Release with the ZIPs attached
 - Trigger a marketplace rebuild on `alisonaquinas/llm-skills`
+
+---
+
+## Command + Agent Templates
+
+### Command Templates
+
+```bash
+# Discovery and narrowing
+rg --files skills
+rg "<pattern>" skills/<skill-name>
+
+# Baseline gates
+make lint
+make test
+make build
+make verify
+```
+
+### Agent Template (Web/UI Domain)
+
+1. Prioritize accessibility, performance, and maintainability.
+2. Keep framework-specific instructions clearly scoped.
+3. Use secure defaults; avoid unsafe production shortcuts.
+4. Include safe local/dev examples with placeholder secrets.
+5. Keep `agents/openai.yaml` and `agents/claude.yaml` aligned with skill intent.
