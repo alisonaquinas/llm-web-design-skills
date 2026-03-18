@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased]
+
+## [1.1.2] - 2026-03-18
+
+### Fixed
+
+- Enforced repository-rooted ZIP layout checks so built skill packages include required files under `llm-web-design-skills/skills/<skill>/...` and fail early when this contract is broken.
+
+## [1.1.1] - 2026-03-18
+
+### Added (release automation)
+
+- Added repository-wide skill agent and command scaffolding for all skills, including per-skill `agents/` manifests and `commands/` entries, so skill invocations can be routed consistently by both Claude and Codex clients.
+- Added `hooks/hooks.json` with preconfigured hooks for agent selection and command execution orchestration.
+
 ## [1.1.0] - 2026-03-16
 
 ### Added
@@ -9,7 +24,7 @@
 ### Changed
 
 - `Makefile`: extended `.PHONY` to include `bundle`; updated `help` text to document the new target
-- `.github/workflows/release.yml`: upgraded from minimal stub to full plugin release pipeline — adds version gate, changelog extraction, `softprops/action-gh-release` upload of `built/*.zip` (including `web-design-skills-plugin.zip`), and marketplace dispatch trigger; added "Build plugin bundle ZIP" step (`make bundle`)
+- `.github/workflows/release.yml`: upgraded from minimal stub to full plugin release pipeline — adds version gate, changelog extraction, `softprops/action-gh-release` upload of `built/*.zip` (including `web-design-skills-plugin.zip`), `changelog` extraction, and marketplace dispatch trigger; added "Build plugin bundle ZIP" step (`make bundle`)
 
 ## [1.0.0] - 2026-03-16
 

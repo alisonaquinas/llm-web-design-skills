@@ -9,6 +9,7 @@ BUILD_DIR := built
 ZIP_FILES := $(addprefix $(BUILD_DIR)/,$(addsuffix -skill.zip,$(SKILLS)))
 REPO_DIR := $(notdir $(CURDIR))
 PARENT_DIR := $(dir $(CURDIR))
+PACKAGED_ROOT := $(REPO_DIR)/$(SKILLS_ROOT)
 skill_files = $(shell find $(SKILLS_ROOT)/$(1) -type f | sort)
 help:
 	@echo "$(REPO_DIR) Build System"
@@ -17,7 +18,7 @@ $(BUILD_DIR):
 	@mkdir -p $(BUILD_DIR)
 $(BUILD_DIR)/%-skill.zip: $(BUILD_DIR) $$(call skill_files,$$*)
 	@rm -f "$@"
-	@cd "$(PARENT_DIR)" && zip -q -r "$(CURDIR)/$@" "$(REPO_DIR)/$(SKILLS_ROOT)/$*" -x "$(REPO_DIR)/$(SKILLS_ROOT)/$*/.DS_Store"
+	@cd "$(PARENT_DIR)" && zip -q -r "$(CURDIR)/$@" "$(PACKAGED_ROOT)/$*" -x "$(PACKAGED_ROOT)/$*/.DS_Store"
 build: $(ZIP_FILES)
 	@ls -lh $(BUILD_DIR)/*.zip
 clean:

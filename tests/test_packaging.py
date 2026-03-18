@@ -24,7 +24,7 @@ class TestBuiltZips(unittest.TestCase):
         for z in self.zips:
             skill_name = z.stem.replace('-skill', '')
             with zipfile.ZipFile(z, 'r') as zf:
-                names = set(zf.namelist())
+                names = {name.replace("\\", "/") for name in zf.namelist()}
             for rel in REQUIRED:
                 self.assertIn(f'{REPO_NAME}/skills/{skill_name}/{rel}', names)
 if __name__ == '__main__':

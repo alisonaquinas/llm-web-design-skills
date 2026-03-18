@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import shutil
 import unittest
 import zipfile
 from pathlib import Path
@@ -25,16 +26,19 @@ class TestBuildHelpers(unittest.TestCase):
 
     def test_verify_zip(self):
         mod = load('scripts/verify_built_zips.py')
+        skill = next((p.parent.name for p in (REPO_ROOT / 'skills').glob('*/SKILL.md')))
         scratch = REPO_ROOT / '.tmp-test-artifacts'
         scratch.mkdir(exist_ok=True)
-        z = scratch / 'sample.zip'
+        z = scratch / f'{skill}-skill.zip'
         try:
             with zipfile.ZipFile(z, 'w') as zf:
-                zf.writestr('hello.txt', 'hello')
+                zf.writestr(f'{REPO_ROOT.name}/skills/{skill}/SKILL.md', 'placeholder')
+                zf.writestr(f'{REPO_ROOT.name}/skills/{skill}/agents/claude.yaml', 'name: test')
+                zf.writestr(f'{REPO_ROOT.name}/skills/{skill}/agents/openai.yaml', 'name: test')
             ok, detail = mod.verify_zip(z)
         finally:
             z.unlink(missing_ok=True)
-            scratch.rmdir()
+            shutil.rmtree(scratch, ignore_errors=True)
         self.assertTrue(ok)
         self.assertEqual(detail, 'valid')
 
