@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.5] - 2026-03-31
+
+### Fixed
+
+- Replaced broken `SessionStart` prompt hook in `hooks/hooks.json` with a working `command`-type hook that invokes the session-start script, eliminating "ToolUseContext is required for prompt hooks" startup errors.
+
 ## [1.1.4] - 2026-03-22
 
 ### Fixed
