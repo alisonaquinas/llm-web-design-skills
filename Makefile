@@ -1,4 +1,4 @@
-.PHONY: all build bundle clean help list verify lint test test-unit
+.PHONY: all build bundle codex-bundle clean help list verify lint test test-unit
 .DEFAULT_GOAL := help
 .SECONDEXPANSION:
 PYTHON ?= python3
@@ -32,6 +32,7 @@ lint:
 	@ruff check --select E,F,W,I --ignore E501 $$(find . -name "*.py" -not -path "./built/*") || exit 1
 	@$(PYTHON) scripts/lint_skills.py || exit 1
 	@$(PYTHON) scripts/validate_skills.py || exit 1
+	@$(PYTHON) scripts/validate_plugin_manifests.py || exit 1
 test-unit:
 	@$(PYTHON) -m unittest discover -s tests -v
 test: lint test-unit
@@ -42,3 +43,12 @@ bundle: build
 	@echo "Building $(PLUGIN_NAME)-plugin.zip..."
 	@cd $(BUILD_DIR) && zip -q $(PLUGIN_NAME)-plugin.zip *-skill.zip
 	@echo "  ✓ $(BUILD_DIR)/$(PLUGIN_NAME)-plugin.zip created"
+
+codex-bundle: build
+	@$(PYTHON) scripts/validate_plugin_manifests.py
+	@echo "Building $(PLUGIN_NAME)-codex-plugin.zip..."
+	@rm -f "$(BUILD_DIR)/$(PLUGIN_NAME)-codex-plugin.zip"
+	@cd "$(PARENT_DIR)" && zip -q -r "$(CURDIR)/$(BUILD_DIR)/$(PLUGIN_NAME)-codex-plugin.zip" \
+		"$(REPO_DIR)/.codex-plugin" "$(PACKAGED_ROOT)" \
+		-x "$(REPO_DIR)/$(SKILLS_ROOT)/*/.DS_Store"
+	@echo "  ✓ $(BUILD_DIR)/$(PLUGIN_NAME)-codex-plugin.zip created"

@@ -1,0 +1,25 @@
+{
+  "name": "web-design-skills",
+  "version": "1.1.5",
+  "description": "Cross-compatible LLM skills for modern web design, frontend frameworks, backend frameworks, static sites, UI systems, and web build tooling.",
+  "author": {
+    "name": "Alison Aquinas"
+  },
+  "repository": "https://github.com/alisonaquinas/llm-web-design-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Web Design Skills",
+    "shortDescription": "Skills for web frameworks, UI systems, and build tooling.",
+    "longDescription": "Cross-compatible skills for modern web design, frontend frameworks, backend frameworks, static sites, UI systems, CSS, and build tooling.",
+    "developerName": "Alison Aquinas",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://llm-skills.alisonaquinas.com",
+    "defaultPrompt": [
+      "Use Web Design Skills to guide a frontend or web framework implementation.",
+      "Use Web Design Skills to review UI, CSS, accessibility, or build tooling."
+    ],
+    "brandColor": "#0891B2"
+  }
+}
